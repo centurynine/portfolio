@@ -1,8 +1,12 @@
 @import "tailwindcss";
-
+@plugin "daisyui" {
+  themes: light --default, dark --prefersdark;
+}
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --gradient-from: #c4dafc; /* สีอ่อน (light) */
+  --gradient-to: #def5ff;
 }
 
 @theme inline {
@@ -12,15 +16,43 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --gradient-from: #232526; 
+    --gradient-to: #414345; 
   }
+} */
+[data-theme="dark"] {
+  --background: #0a0a0a;
+  --foreground: #ededed;
+  --gradient-from: #202325;
+  /* mid gradient */
+  --gradient-to: #212b31;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  min-height: 100vh;
+  /* background: var(--background); */
+  background: linear-gradient(90deg, var(--gradient-from), var(--gradient-to));
+  /* color: var(--foreground); */
+  font-family: Rubik, Arial, Helvetica, sans-serif;
+}
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-gradient {
+  background-size: 200% 200%;
+  animation: gradientAnimation 15s ease infinite;
 }
