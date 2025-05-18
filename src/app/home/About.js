@@ -26,11 +26,17 @@ export function About() {
 
   return (
     <>
-      <div className="flex flex-col xl:flex-row  mt-20  w-[60%] justify-center mx-auto">
+      <div
+        id="about"
+        className="flex flex-col xl:flex-row  mt-20 w-[90%] xl:w-[60%] justify-center mx-auto"
+      >
         <div className="flex flex-row">
           <div className="flex flex-col justify-center ">
             <span className="text-5xl mb-4">Hello</span>
-            <span className="text-7xl mb-4">I'm Guy</span>
+            <div className="flex flex-row  items-center ">
+              <span className="text-7xl mb-4">I'm Guy</span>
+            </div>
+
             <span className="text-5xl font-bold text-blue-300 min-w-[18ch] inline-block">
               {typedText}
             </span>
@@ -44,12 +50,18 @@ export function About() {
                 <div className="w-5 h-5 bg-yellow-100 rounded-full"></div>
                 <div className="w-5 h-5 bg-blue-200 rounded-full"></div>
               </div>
-              <span className="text-lg text-white">
-                I'm a passionate frontend developer with a strong eye for design
-                and usability. I thrive on transforming creative ideas into
-                engaging, responsive, and user-friendly web applications that
-                not only look great but also perform seamlessly.
-              </span>
+              <div className="flex flex-col">
+                {" "}
+                <span className="text-sm text-accent">
+                  saran_wanphunga@portfolio: ~/about
+                </span>
+                <span className="text-lg text-white">
+                  I'm a passionate frontend developer with a strong eye for
+                  design and usability. I thrive on transforming creative ideas
+                  into engaging, responsive, and user-friendly web applications
+                  that not only look great but also perform seamlessly.
+                </span>
+              </div>
             </div>
           </div>
         </div>

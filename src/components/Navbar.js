@@ -22,17 +22,17 @@ export function Navbar() {
 
   return (
     <div>
-      <nav className="fixed w-full flex justify-center ">
+      <nav className="fixed w-full flex justify-center z-50">
         <ul className="flex mt-4 p-3 bg-base-100/90 backdrop-blur-md shadow-lg rounded-lg menu menu-horizontal items-center justify-between">
           <li className="text-2xl font-bold mr-40 ml-4">
             <a>Portfolio</a>
           </li>
           <div className="flex gap-4">
             <li>
-              <a>About</a>
+              <a href="#about">About</a>
             </li>
             <li>
-              <a>Skills</a>
+              <a href="#skills">Skills</a>
             </li>
             <li>
               <a>Projects</a>
