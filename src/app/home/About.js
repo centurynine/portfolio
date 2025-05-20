@@ -34,17 +34,17 @@ export function About() {
           <div className="flex flex-col justify-center ">
             <span className="text-5xl mb-4">Hello</span>
             <div className="flex flex-row  items-center ">
-              <span className="text-7xl mb-4">I'm Guy</span>
+              <span className="text-7xl font-bold mb-4">I'm Guy</span>
             </div>
 
-            <span className="text-5xl font-bold text-blue-300 min-w-[18ch] inline-block">
+            <span className="text-5xl font-semibold text-blue-300 min-w-[18ch] inline-block">
               {typedText}
             </span>
           </div>
         </div>
         <div className="mt-20">
           <div className="flex flex-row justify-center xl:w-150">
-            <div className="bg-black/40 p-8 rounded-xl shadow-lg border-1 border-blue-300">
+            <div className="bg-white/5 backdrop-blur-md border border-blue-600/10 rounded-xl p-6 shadow-lg">
               <div className="flex flex-row gap-2 mb-4">
                 <div className="w-5 h-5 bg-red-100 rounded-full"></div>
                 <div className="w-5 h-5 bg-yellow-100 rounded-full"></div>
@@ -55,7 +55,7 @@ export function About() {
                 <span className="text-sm text-accent">
                   saran_wanphunga@portfolio: ~/about
                 </span>
-                <span className="text-lg text-white">
+                <span className="text-lg  ">
                   I'm a passionate frontend developer with a strong eye for
                   design and usability. I thrive on transforming creative ideas
                   into engaging, responsive, and user-friendly web applications

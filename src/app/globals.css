@@ -5,8 +5,9 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --gradient-from: #c4dafc; /* สีอ่อน (light) */
-  --gradient-to: #def5ff;
+  --gradient-from: #eff6ff; /* สีอ่อน (light) */
+  --gradient-via: #f3f3f3; /* สีกลาง (mid) */
+  --gradient-to: #ffffff;
 }
 
 @theme inline {
@@ -27,16 +28,17 @@
 [data-theme="dark"] {
   --background: #0a0a0a;
   --foreground: #ededed;
-  --gradient-from: #202325;
+  --gradient-from: #0f0f0f;
+  --gradient-via: #1a1a2e;  
   /* mid gradient */
-  --gradient-to: #212b31;
+  --gradient-to: #0f0f0f;
 }
 
 body {
   height: 100%;
   min-height: 100vh;
   /* background: var(--background); */
-  background: linear-gradient(90deg, var(--gradient-from), var(--gradient-to));
+  background: linear-gradient(90deg, var(--gradient-from),var(--gradient-via), var(--gradient-to));
   /* color: var(--foreground); */
   font-family: Rubik, Arial, Helvetica, sans-serif;
 } 

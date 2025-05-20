@@ -41,4 +41,9 @@ export const skills = [
     category: "frontend",
     image: "/assets/images/skills/tailwind.png",
   },
+  {
+    name: "Git", 
+    category: "other",
+    image: "/assets/images/skills/git.png",
+  },
 ];
