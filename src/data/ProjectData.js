@@ -1,17 +1,23 @@
- const projects = [
-    {
-      title: 'E-commerce App',
-      description: 'A full-featured shopping application built with Flutter and Firebase.',
-      tags: ['Flutter', 'Firebase', 'MySQL']
-    },
-    {
-      title: 'Inventory System',
-      description: 'Database-driven inventory management system with complex SQL stored procedures.',
-      tags: ['MySQL', 'SQL Stored Procedures']
-    },
-    {
-      title: 'Social Media Dashboard',
-      description: 'Analytics dashboard for tracking social media engagement metrics.',
-      tags: ['Flutter', 'Firebase', 'MySQL']
-    }
-  ];
+export const projects = [
+  {
+    title: "Eat With Me (Mobile App)",
+    "image": "/assets/images/projects/eatwithme/1.png",
+    description:
+      "Developed a recipe sharing application using Flutter and Firebase Database.",
+    tags: ["Flutter", "Firebase"],
+  },
+  {
+    title: "FukurouTomo Shop (E-Commerce)",
+    "image": "/assets/images/projects/fukuroutomoshop/1.png",
+    description:
+      "Developed Online E-Commerce Website using React, Node.js, MongoDB Database, and Deployed on DigitalOcean.",
+    tags: ["React", "MySQL", "NodeJS", "ExpressJS", "Redux"],
+  },
+  {
+    title: "WaterLevel (Project)",
+    "image": "/assets/images/projects/waterlevel/1.png",
+    description:
+      "Developed IoT Project using Flutter, Arduino, and Firebase Database.",
+    tags: ["Flutter", "Firebase", "IoT", "Arduino", "FCM"],
+  },
+];

@@ -26,10 +26,8 @@ export function Skill() {
         id="skills"
         className="relative mt-20   w-[90%] xl:max-w-7xl mx-auto   "
       >
-        <div className="absolute -top-20 -left-20 w-[400px] h-[400px] bg-gradient-to-br from-purple-600 via-blue-500 to-teal-300 opacity-20 rounded-full blur-3xl"></div>
-        {/* <div className="absolute top-[40%] -left-20 w-[400px] h-[400px] bg-gradient-to-br from-purple-600 via-blue-500 to-teal-200 opacity-20 rounded-full blur-3xl"></div> */}
+        <div className="absolute -top-20 -left-20 w-[400px] h-[400px] bg-gradient-to-br from-purple-600 via-blue-500 to-teal-300 opacity-20 rounded-full blur-3xl"></div> 
         <div className="absolute -bottom-10 right-0 w-[500px] h-[500px] bg-gradient-to-tr from-indigo-500 via-fuchsia-500 to-pink-100 opacity-20 rounded-full blur-3xl"></div>
-        {/* <h2 className="text-4xl font-bold mb-10 relative  ">Skills</h2> */}
         <div className="space-y-12 relative   rounded-lg shadow-lg">
           <div>
             <div className="bg-base-100   rounded-t-lg p-3 flex items-center space-x-2  ">
