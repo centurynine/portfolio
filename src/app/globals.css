@@ -36,8 +36,9 @@
 
 body {
   height: 100%;
-  min-height: 100vh;
-  /* background: var(--background); */
+  min-height: 100vh; 
+  
+  /* background: var(--background) ; */
   background: linear-gradient(90deg, var(--gradient-from),var(--gradient-via), var(--gradient-to));
   /* color: var(--foreground); */
   font-family: Rubik, Arial, Helvetica, sans-serif;

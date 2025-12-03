@@ -53,7 +53,7 @@ export function About() {
               <div className="flex flex-col">
                 {" "}
                 <span className="text-sm text-accent">
-                  saran_wanphunga@portfolio: ~/about
+                  root@portfolio: ~/about
                 </span>
                 <span className="text-lg  ">
                   I'm a passionate frontend developer with a strong eye for
