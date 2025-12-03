@@ -34,7 +34,7 @@ export function About() {
           <div className="flex flex-col justify-center ">
             <span className="text-5xl mb-4">Hello</span>
             <div className="flex flex-row  items-center ">
-              <span className="text-7xl font-bold mb-4">I'm Guy</span>
+              <span className="text-7xl font-bold mb-4">I&apos;m Guy</span>
             </div>
 
             <span className="text-5xl font-semibold text-blue-300 min-w-[18ch] inline-block">
@@ -55,8 +55,8 @@ export function About() {
                 <span className="text-sm text-accent">
                   root@portfolio: ~/about
                 </span>
-                <span className="text-lg  ">
-                  I'm a passionate frontend developer with a strong eye for
+                <span className="text-lg">
+                  I&apos;m a passionate frontend developer with a strong eye for
                   design and usability. I thrive on transforming creative ideas
                   into engaging, responsive, and user-friendly web applications
                   that not only look great but also perform seamlessly.
