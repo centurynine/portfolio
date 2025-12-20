@@ -43,7 +43,7 @@ export default function Contact() {
 
   return (
     <>
-      <div>
+      <section id="contact">
         <div className="mt-20  w-[90%] xl:max-w-7xl  mx-auto p-10 bg-white/5    border border-blue-600/10 rounded-xl shadow-lg">
           <div className="justify-center flex flex-col w-[40%]">
             <form onSubmit={handleSubmit}>
@@ -79,7 +79,7 @@ export default function Contact() {
             </form>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 }

@@ -35,10 +35,10 @@ export function Navbar() {
               <a href="#skills">Skills</a>
             </li>
             <li>
-              <a>Projects</a>
+              <a href="#projects">Projects</a>
             </li>
             <li>
-              <a>Contact</a>
+              <a href="#contact">Contact</a>
             </li>
           </div>
           <label className="ml-10 mr-4 toggle text-base-content">

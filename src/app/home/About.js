@@ -26,7 +26,7 @@ export function About() {
 
   return (
     <>
-      <div
+      <section
         id="about"
         className="flex flex-col xl:flex-row  mt-20 w-[90%] xl:w-[60%] justify-center mx-auto"
       >
@@ -65,7 +65,7 @@ export function About() {
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 }
