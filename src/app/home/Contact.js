@@ -9,8 +9,8 @@ export default function Contact() {
     e.preventDefault();
     setLoading(true);
     setMessage("");
-
-    const formData = new FormData(e.target);
+    const form = e.target;
+    const formData = new FormData(form);
     const data = {
       name: formData.get("name"),
       email: formData.get("email"),
@@ -37,6 +37,7 @@ export default function Contact() {
     } catch (error) {
       setMessage("Error: " + error.message);
     } finally {
+      form.reset();
       setLoading(false);
     }
   };
@@ -53,6 +54,7 @@ export default function Contact() {
               <fieldset className="fieldset w-full">
                 <legend className="fieldset-legend">What is your name?</legend>
                 <input
+                  required
                   type="text"
                   name="name"
                   className="input bg-black/10 border-0 w-full"
@@ -60,6 +62,7 @@ export default function Contact() {
                 />
                 <legend className="fieldset-legend">Email</legend>
                 <input
+                  required
                   type="email"
                   name="email"
                   className="input bg-black/10 border-0 w-full"
@@ -67,13 +70,16 @@ export default function Contact() {
                 />
                 <legend className="fieldset-legend">Message</legend>
                 <textarea
+                  required
                   name="message"
                   className="textarea bg-black/10 border-0 w-full"
                   placeholder="Type here"
                 ></textarea>
               </fieldset>
 
-              <button className="btn btn-soft mt-4 w-full" disabled={loading}>Send!</button>
+              <button className="btn btn-soft mt-4 w-full" disabled={loading}>
+                Send!
+              </button>
               {loading ? "Sending..." : null}
               {message && <p className="mt-2 text-sm">{message}</p>}
             </form>
