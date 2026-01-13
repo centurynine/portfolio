@@ -117,7 +117,7 @@ export default function Contact() {
                     Phone
                   </span>{" "}
                 </div>
-                <p>+66 99 456 7892</p>
+                <p>+66 98 371 0776</p>
               </div>{" "}
             </div>
           </div>
