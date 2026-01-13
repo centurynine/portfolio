@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import { Phone, Mail, SquareUser } from 'lucide-react';
 
 export default function Contact() {
   const [loading, setLoading] = useState(false);
@@ -9,8 +10,8 @@ export default function Contact() {
     e.preventDefault();
     setLoading(true);
     setMessage("");
-    const form = e.target;
-    const formData = new FormData(form);
+
+    const formData = new FormData(e.target);
     const data = {
       name: formData.get("name"),
       email: formData.get("email"),
@@ -37,7 +38,6 @@ export default function Contact() {
     } catch (error) {
       setMessage("Error: " + error.message);
     } finally {
-      form.reset();
       setLoading(false);
     }
   };
@@ -45,8 +45,8 @@ export default function Contact() {
   return (
     <>
       <section id="contact">
-        <div className="mt-20  w-[90%] xl:max-w-7xl  mx-auto p-10 bg-white/5    border border-blue-600/10 rounded-xl shadow-lg">
-          <div className="justify-center flex flex-col w-[40%]">
+        <div className="mt-20  w-[90%] xl:max-w-7xl  mx-auto p-10 bg-white/5    border border-blue-600/10 rounded-xl shadow-lg flex flex-row">
+          <div className=" flex flex-col w-full">
             <form onSubmit={handleSubmit}>
               <span className="text-3xl text-blue-500 mb-8">
                 ~/ Get in Touch
@@ -83,6 +83,43 @@ export default function Contact() {
               {loading ? "Sending..." : null}
               {message && <p className="mt-2 text-sm">{message}</p>}
             </form>
+          </div>
+          <div className="w-full ">
+            {/* <span className="text-3xl mb-2">My contact</span> */}
+            <div className=" ml-20 flex flex-col gap-4">
+              <div>
+                <div className="flex flex-row items-center gap-2 mb-1">
+                  <SquareUser />
+                  <span className="text-xl label-text font-semibold">Name</span>
+                </div>
+
+                <div className="">
+                  <p>Saran Wanphunga</p>
+                </div>
+              </div>
+              <div>
+                <div className="flex flex-row items-center gap-2 mb-1">
+                   <Mail />
+                  <span className="text-xl label-text font-semibold">
+                    Email
+                  </span>
+                </div>
+
+                <p>
+                  <a href="mailto:lowlifeix@gmail.com">lowlifeix@gmail.com</a>
+                </p>
+              </div>
+              <div>
+                {" "}
+                <div className="flex flex-row items-center gap-2 mb-1">
+                  <Phone />
+                  <span className="text-xl label-text font-semibold">
+                    Phone
+                  </span>{" "}
+                </div>
+                <p>+66 99 456 7892</p>
+              </div>{" "}
+            </div>
           </div>
         </div>
       </section>
