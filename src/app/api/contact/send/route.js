@@ -1,7 +1,5 @@
 import { Resend } from "resend";
 
-const resend = new Resend(process.env.APP_RESEND_API_KEY);
-
 const rateLimitMap = new Map();
 
 function rateLimit(ip) {
@@ -27,6 +25,15 @@ function rateLimit(ip) {
 
 export async function POST(request) {
   try {
+    const apiKey = process.env.APP_RESEND_API_KEY;
+    if (!apiKey) {
+      return Response.json(
+        { error: "Email service is not configured." },
+        { status: 500 }
+      );
+    }
+
+    const resend = new Resend(apiKey);
     const ip = request.headers.get("x-forwarded-for") || "unknown";
 
     if (!rateLimit(ip)) {

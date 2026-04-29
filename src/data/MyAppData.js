@@ -1,0 +1,338 @@
+export const myApps = [
+  {
+    name: "Norz",
+    slug: "norz",
+    href: "/app/norz",
+    logo: "/assets/images/apps/norz.png",
+    category: "Focus and To-do",
+    accent: "from-cyan-300 to-blue-400",
+    summary:
+      "Local-first focus sessions, task planning, and progress review without a cloud account.",
+    privacySourceUrl:
+      "https://github.com/centurynine/product-privacy/blob/main/Privacy_Norz.MD",
+    // Use the exact Google Play details URL, not a search URL.
+    playStoreUrl: "",
+    appStoreUrl: "",
+    appStoreStatus: "Coming soon",
+    highlights: [
+      "Stores tasks, focus sessions, statistics, and settings locally on your device.",
+      "Uses Google Mobile Ads / AdMob for ads.",
+      "Does not upload task content, notes, focus sessions, or local statistics to CenturyNine servers.",
+    ],
+    policy: `# Privacy Policy for Norz
+
+Last updated: April 27, 2026
+
+Developer / Publisher: CenturyNine
+Privacy contact: lowlifeix@gmail.com
+
+## Overview
+
+This Privacy Policy explains how Norz ("the App") handles information when you use the App. Norz is a local-first focus and to-do application designed to help you start tasks, run focus sessions, and review your progress without requiring a cloud account.
+
+## Information Stored on Your Device
+
+Norz stores app data locally on your device so the core experience can work offline. This may include:
+
+- Tasks, titles, notes, due dates, priorities, pinned status, and estimated focus time.
+- Focus sessions, including start time, end time, duration, related task, and completion status.
+- Daily statistics, including focus minutes, completed tasks, and streak information.
+- App settings, including language, theme, notification preference, focus target, and task-picking preference.
+
+We do not operate a backend server for Norz, and we do not upload your task content, notes, focus sessions, or local statistics to our own server.
+
+## Device Features and Permissions
+
+Norz may require internet access for ads and related Google Mobile Ads SDK functionality. The App does not request access to your contacts, precise location, camera, microphone, photos, or files for its core task and focus features.
+
+If notification features are enabled in a future release or by the operating system, notification permission may be used only to provide focus or reminder notifications that you choose to enable.
+
+## Advertising and Third-Party Services
+
+Norz uses Google Mobile Ads / AdMob to show banner and interstitial ads. Google Mobile Ads may automatically collect and share certain information for advertising, analytics, and fraud prevention. Depending on your device, settings, region, and Google services, this may include:
+
+- IP address.
+- App interactions and ad interactions.
+- Diagnostic information.
+- Device identifiers, advertising identifiers, and related account/device information.
+
+Norz does not intentionally send task titles, notes, or focus-session content to Google for advertising. You can learn more here:
+
+- Google Mobile Ads SDK data disclosure: https://developers.google.com/ad-manager/mobile-ads-sdk/android/privacy/play-data-disclosure
+- How Google uses information from sites or apps that use its services: https://policies.google.com/technologies/partner-sites
+- Google Privacy Policy: https://policies.google.com/privacy
+
+## How We Use Information
+
+We use locally stored app data to:
+
+- Display and manage your tasks.
+- Start, pause, stop, and complete focus sessions.
+- Calculate daily progress, streaks, and statistics.
+- Remember your language, theme, and focus preferences.
+- Improve the usability of the local app experience.
+
+Advertising-related data handled by Google Mobile Ads is used by Google and its partners for purposes such as ad delivery, measurement, fraud prevention, and analytics, as described in Google's policies.
+
+## Sharing of Information
+
+We do not sell your personal information. We do not share your task content, notes, focus sessions, or local productivity history with our own servers because Norz does not currently use a cloud account system.
+
+Information may be processed or shared by Google Mobile Ads as part of ad serving and measurement. Please review Google's policies for details about Google's collection, sharing, and controls.
+
+## Data Retention and Deletion
+
+Your task, focus, settings, and statistics data remain on your device until you delete them, reset app data, or uninstall the App.
+
+You can delete local app data by:
+
+- Using the reset data option inside Norz, if available in your version of the App.
+- Clearing the App's storage from your device settings.
+- Uninstalling the App.
+
+Advertising data handled by Google is retained according to Google's own policies and your Google account/device advertising settings.
+
+## Security
+
+Norz is designed as a local-first app. We use platform-provided local storage for app data and avoid sending your task and focus content to our own servers. However, no method of storage or transmission is completely secure, and you should avoid storing highly sensitive personal information in task titles or notes.
+
+## Children's Privacy
+
+Norz is not directed to children under 13 years old. We do not knowingly collect personal information from children. If you believe a child has provided personal information through the App, please contact us so we can review the issue.
+
+## International Users
+
+Your locally stored app data stays on your device. Advertising-related data may be processed by Google and its partners in various countries according to their policies and applicable law.
+
+## Changes to This Privacy Policy
+
+We may update this Privacy Policy from time to time. When we do, we will update the "Last updated" date above. Continued use of the App after changes means you accept the updated Privacy Policy.
+
+## Contact Us
+
+If you have questions about this Privacy Policy or Norz's privacy practices, contact:
+
+lowlifeix@gmail.com`,
+  },
+  {
+    name: "DramaWallet",
+    slug: "dramawallet",
+    href: "/app/dramawallet",
+    logo: "/assets/images/apps/dramawallet.png",
+    category: "Expense Tracker",
+    accent: "from-rose-300 to-fuchsia-400",
+    summary:
+      "Offline-first expense tracking with local records, app lock, exports, and encrypted backups.",
+    privacySourceUrl:
+      "https://github.com/centurynine/product-privacy/blob/main/Privacy_DramaWallet.MD",
+    // Use the exact Google Play details URL, not a search URL.
+    playStoreUrl: "",
+    appStoreUrl: "",
+    appStoreStatus: "Coming soon",
+    highlights: [
+      "Stores income, expenses, categories, notes, settings, PIN data, and backup files locally.",
+      "Uses Google AdMob in some parts of the app.",
+      "Does not operate a cloud account system or collect transaction records on CenturyNine servers.",
+    ],
+    policy: `# Privacy Policy for DramaWallet
+
+Last updated: April 29, 2026
+
+Developer / Publisher: CenturyNine
+Privacy contact: lowlifeix@gmail.com
+
+## Overview
+
+This Privacy Policy explains how DramaWallet ("the App") handles information when you use the App. DramaWallet is an offline-first expense tracking app designed to help you record income, expenses, categories, notes, tags, settings, PIN lock settings, and local backup files.
+
+DramaWallet does not operate a cloud account system, and we do not run our own server to collect your transaction records.
+
+## Information Stored on Your Device
+
+DramaWallet stores app data locally on your device unless you choose to export, share, back up, or transfer it outside the App. This may include:
+
+- Transactions, including income, expenses, amounts, categories, dates, notes, and tags.
+- Custom categories, colors, and icons.
+- App settings, including language, theme, personality tone, background opacity, and blur level.
+- A background image selected by you from your device.
+- PIN lock data. DramaWallet stores a PIN hash and salt, not the plain PIN.
+- Encrypted database backup files and transaction export files created by you.
+
+## Device Features and Permissions
+
+DramaWallet may use device features only when they are needed for features you choose to use:
+
+- Photos or files, when you choose a background image or select a backup file to import. DramaWallet only uses the file you select.
+- Biometrics, when you enable biometric unlock. Biometric verification is handled by the operating system, and DramaWallet does not receive or store biometric templates such as face or fingerprint data.
+- Local storage, to save app data offline and create import/export files.
+
+## Advertising and Third-Party Services
+
+DramaWallet uses Google AdMob to show ads in some parts of the App. Google AdMob and its partners may collect or use device information, advertising identifiers, IP address, app activity related to ads, crash or diagnostic data, and similar information to provide, limit, measure, and improve ads, including personalized ads where permitted by your device settings and applicable law.
+
+You can learn more here:
+
+- How Google uses information from sites or apps that use its services: https://policies.google.com/technologies/partner-sites
+- Google Privacy Policy: https://policies.google.com/privacy
+
+You can control ad personalization through your device settings and through controls provided by Google where available.
+
+## How We Use Information
+
+DramaWallet uses locally stored app data to:
+
+- Save and display your income and expense records.
+- Generate charts, summaries, insights, and feedback messages.
+- Apply your theme, language, background, security, and notification preferences.
+- Import, export, and restore data when you choose to do so.
+- Protect local access to the App using PIN and optional biometric unlock.
+- Show and measure ads through Google AdMob.
+
+## Sharing of Information
+
+We do not sell your transaction records. DramaWallet does not share your local transaction database with us because we do not operate a DramaWallet cloud service.
+
+Information may be shared only in these cases:
+
+- You choose to export, share, or back up a file outside the App.
+- You import a file that you selected from your device.
+- Google AdMob may collect and process advertising-related data as described above.
+- We may disclose information if required by law, regulation, legal process, or a valid government request.
+
+## Data Retention and Deletion
+
+Your app data remains on your device until you delete it, import replacement data, clear app storage, uninstall the App, or delete exported files yourself.
+
+Because DramaWallet is offline-first and does not maintain a cloud account for you, deleting the App or clearing its local storage removes the local data controlled by DramaWallet on that device.
+
+To delete exported CSV, Excel, or backup files, delete those files from the location where you saved or shared them.
+
+## Security
+
+DramaWallet uses local encrypted storage for app data where supported by the platform. The App stores PIN credentials as a salted hash rather than storing the plain PIN. Exported database backups are encrypted by the App.
+
+Please keep exported files safe. If you share or store them in another app or cloud service, that service's privacy practices will apply.
+
+## Children's Privacy
+
+DramaWallet is a personal finance utility and is not directed to children under 13 years old. We do not knowingly collect personal information from children. If you believe a child has provided personal information through the App, please contact us so we can review the issue.
+
+## International Users
+
+Your locally stored app data stays on your device. Advertising-related data may be processed by Google and its partners in various countries according to their policies and applicable law.
+
+## Changes to This Privacy Policy
+
+We may update this Privacy Policy from time to time. When we do, we will update the "Last updated" date above. Continued use of the App after changes means you accept the updated Privacy Policy.
+
+## Contact Us
+
+If you have questions about this Privacy Policy or DramaWallet's privacy practices, contact:
+
+lowlifeix@gmail.com`,
+  },
+  {
+    name: "Zaplyt",
+    slug: "zaplyt",
+    href: "/app/zaplyt",
+    logo: "/assets/images/apps/zaplyt.png",
+    category: "Electricity Calculator",
+    accent: "from-amber-200 to-lime-300",
+    summary:
+      "Offline electricity usage calculations with local-only appliance input and settings.",
+    privacySourceUrl:
+      "https://github.com/centurynine/product-privacy/blob/main/Privacy_Zaplyt.MD",
+    // Use the exact Google Play details URL, not a search URL.
+    playStoreUrl: "",
+    appStoreUrl: "",
+    appStoreStatus: "Coming soon",
+    highlights: [
+      "Does not collect, store, or share personal information from users.",
+      "Stores appliance usage and calculation data locally with Hive database.",
+      "Uses Google Mobile Ads / AdMob for advertisements.",
+    ],
+    policy: `# Privacy Policy for Zaplyt
+
+Last updated: April 26, 2026
+
+Developer / Publisher: CenturyNine
+Privacy contact: lowlifeix@gmail.com
+
+## Overview
+
+This Privacy Policy explains how Zaplyt ("the App") handles information when you use the App. Zaplyt is an offline-first electricity usage calculator designed to help you estimate appliance usage and electricity costs without requiring an account or cloud sync.
+
+## Information Stored on Your Device
+
+Zaplyt does not collect, store, or share personal information on our own servers. App data is stored locally on your device using local storage, such as a Hive database. This may include:
+
+- Appliance usage entries.
+- Electricity calculation inputs and results.
+- App settings and local preferences.
+
+This data stays on your device, is not shared externally by Zaplyt, and can be deleted by clearing app storage or uninstalling the App.
+
+## Device Features and Permissions
+
+Zaplyt works offline for its core calculation features and does not require user accounts or login. The App may require internet access for Google Mobile Ads / AdMob functionality.
+
+Zaplyt does not request access to your contacts, precise location, camera, microphone, photos, or files for its core electricity calculation features.
+
+## Advertising and Third-Party Services
+
+Zaplyt uses Google Mobile Ads / AdMob to display advertisements. AdMob may automatically collect certain information for advertising, analytics, and fraud prevention. Depending on your device, settings, region, and Google services, this may include:
+
+- Device information.
+- Advertising ID.
+- Usage data and ad interactions.
+- Diagnostic information.
+
+This data is collected and processed by Google according to Google's own policies. You can learn more here:
+
+- How Google uses information from sites or apps that use its services: https://policies.google.com/technologies/partner-sites
+- Google Privacy Policy: https://policies.google.com/privacy
+
+## How We Use Information
+
+Zaplyt uses locally stored app data to:
+
+- Save appliance usage information on your device.
+- Calculate estimated electricity usage and costs.
+- Remember local app settings and preferences.
+- Show and measure ads through Google AdMob.
+
+## Sharing of Information
+
+We do not sell your personal information. Zaplyt does not share appliance usage inputs, electricity calculations, or local settings with our own servers because Zaplyt does not currently use a cloud account system.
+
+Information may be processed by Google Mobile Ads as part of ad serving and measurement. Please review Google's policies for details about Google's collection, sharing, and controls.
+
+## Data Retention and Deletion
+
+Your appliance usage, calculation data, and settings remain on your device until you delete them, clear app storage, or uninstall the App.
+
+Advertising data handled by Google is retained according to Google's own policies and your Google account/device advertising settings.
+
+## Security
+
+Zaplyt is designed as a local-first app. We use platform-provided local storage for app data and avoid sending your electricity calculation content to our own servers. However, no method of storage or transmission is completely secure.
+
+## Children's Privacy
+
+Zaplyt is not directed to children under 13 years old. We do not knowingly collect personal information from children. If you believe a child has provided personal information through the App, please contact us so we can review the issue.
+
+## International Users
+
+Your locally stored app data stays on your device. Advertising-related data may be processed by Google and its partners in various countries according to their policies and applicable law.
+
+## Changes to This Privacy Policy
+
+We may update this Privacy Policy from time to time. When we do, we will update the "Last updated" date above. Continued use of the App after changes means you accept the updated Privacy Policy.
+
+## Contact Us
+
+If you have questions about this Privacy Policy or Zaplyt's privacy practices, contact:
+
+lowlifeix@gmail.com`,
+  },
+];
