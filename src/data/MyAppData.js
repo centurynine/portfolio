@@ -412,4 +412,134 @@ lowlifeix@gmail.com
 Last updated: 01/05/2026
 `,
   },
+
+
+
+
+
+
+   {
+    name: "Wizard Calculator",
+    slug: "wizard-calculator",
+    href: "/app/wizard-calculator",
+    logo: "/assets/images/apps/wizard-calculator.png",
+    category: "Calculators",
+    accent: "from-blue-300 to-cyan-400",
+    summary:
+      "Offline calculator app with local-only calculations, no user accounts, and ad support.",
+    privacySourceUrl:
+      "https://github.com/centurynine/product-privacy/blob/main/Privacy_Wizard_Calculator.MD",
+    // Use the exact Google Play details URL, not a search URL.
+    playStoreUrl: "https://play.google.com/store/apps/details?id=com.centurynine.wizardcalculator",
+    appStoreUrl: "",
+    appStoreStatus: "Coming soon",
+    highlights: [
+      "Does not collect, store, or share personal information from users.",
+       "Uses Google Mobile Ads / AdMob for advertisements.",
+
+    ],
+    policy: `# Privacy Policy for Wizard Calculator
+
+Last updated: May 1, 2026
+
+Developer / Publisher: CenturyNine
+
+Privacy contact: lowlifeix@gmail.com
+
+## Overview
+
+This Privacy Policy explains how Wizard Calculator ("the App") handles information when you use the App. Wizard Calculator provides calculator tools, BMI calculations, unit conversion, and currency conversion. The core calculations are designed to run on your device without requiring a cloud account.
+
+## Information Stored or Processed on Your Device
+
+The App processes the values you enter for calculator, BMI, and unit conversion features locally on your device. These values are used to display calculation results and are not intentionally sent to CenturyNine servers.
+
+The App may temporarily keep calculation values in device memory while the App is open. The operating system, Flutter framework, Google Mobile Ads SDK, Firebase SDKs, or network image/cache systems may also create ordinary app cache or diagnostic data required for the App to run.
+
+The App does not require you to create a CenturyNine account and does not ask you to provide your name, email address, contacts, precise location, photos, camera, microphone, or files for its core calculator features.
+
+## Device Features and Permissions
+
+Wizard Calculator requests internet access. Internet access is used for advertising, crash reporting, currency exchange-rate requests, and loading remote assets such as currency flag images where available.
+
+The App does not request permission to access contacts, precise GPS location, camera, microphone, photos, or local files for its core features.
+
+## Advertising and Third-Party Services
+
+Wizard Calculator uses Google Mobile Ads / AdMob to show ads. Google Mobile Ads may automatically collect, process, and share certain information for ad delivery, ad measurement, analytics, security, and fraud prevention. Depending on your device, settings, region, and Google services, this may include:
+
+- IP address and coarse location inferred from network information.
+- App interactions and ad interactions.
+- Device information, diagnostics, and crash-related information.
+- Advertising identifiers, device identifiers, and related account or device signals.
+
+Wizard Calculator does not intentionally send your calculator entries, BMI values, or conversion amounts to Google for advertising.
+
+You can learn more from these Google resources:
+
+- Google Mobile Ads SDK data disclosure: https://developers.google.com/ad-manager/mobile-ads-sdk/android/privacy/play-data-disclosure
+- How Google uses information from apps and sites that use its services: https://policies.google.com/technologies/partner-sites
+- Google Privacy Policy: https://policies.google.com/privacy
+
+## Crash Reporting and Diagnostics
+
+Wizard Calculator uses Firebase Crashlytics to help identify, diagnose, and fix crashes and stability issues. Crashlytics may collect crash stack traces, device model, operating system version, app version, timestamps, installation or session identifiers, and related diagnostic information.
+
+We use this information to improve stability and troubleshoot errors. We do not intentionally include calculator entries, BMI values, or conversion amounts in crash reports.
+
+You can learn more from the Firebase Privacy and Security page and the Firebase Crashlytics documentation:
+
+- https://firebase.google.com/support/privacy
+- https://firebase.google.com/docs/crashlytics
+
+## Currency Rates and Remote Images
+
+The currency conversion feature requests exchange-rate data from https://open.er-api.com/. The request is for general exchange-rate data and does not include the amount you type into the App.
+
+Some currency or unit screens may load flag images from https://flagcdn.com/. Remote services may receive ordinary request information such as IP address, user agent, timestamp, and the requested URL.
+
+## How We Use Information
+
+We use information handled by the App to:
+
+- Calculate and display calculator, BMI, unit conversion, and currency conversion results.
+- Fetch up-to-date exchange-rate information.
+- Show and measure ads that support the App.
+- Detect, diagnose, and fix crashes or technical issues.
+- Maintain and improve the App experience.
+
+## Sharing of Information
+
+We do not sell your personal information. We do not operate a CenturyNine account system for Wizard Calculator, and we do not upload your calculator entries, BMI values, or conversion amounts to our own server.
+
+Information may be processed by third-party providers such as Google Mobile Ads, Firebase Crashlytics, the exchange-rate provider, and remote image providers as described in this Privacy Policy and in those providers' own privacy policies.
+
+## Data Retention and Deletion
+
+Calculation values used by the core App experience remain on your device and are generally temporary unless your device or app environment stores cache data. You can remove local app data by clearing the App's storage in device settings or uninstalling the App.
+
+Advertising, diagnostic, and crash-reporting data handled by Google or other third-party services is retained according to those providers' policies and your device, account, and advertising settings.
+
+## Security
+
+We design Wizard Calculator so core calculation values are processed locally and are not sent to CenturyNine servers. However, no method of storage or transmission is completely secure. Please avoid entering highly sensitive personal information into calculator notes, fields, or values.
+
+## Children's Privacy
+
+Wizard Calculator is not directed to children under 13 years old. We do not knowingly collect personal information directly from children. If you believe a child has provided personal information through the App, please contact us so we can review the issue.
+
+## International Users
+
+Your local calculation data remains on your device. Third-party services such as Google Mobile Ads, Firebase, exchange-rate services, and remote image providers may process information in different countries according to their own policies and applicable law.
+
+## Changes to This Privacy Policy
+
+We may update this Privacy Policy from time to time. When we do, we will update the "Last updated" date above. Continued use of the App after changes means you accept the updated Privacy Policy.
+
+## Contact Us
+
+If you have questions about this Privacy Policy or Wizard Calculator's privacy practices, contact us at lowlifeix@gmail.com.
+
+`,
+  },
 ];
