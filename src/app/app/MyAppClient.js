@@ -173,11 +173,10 @@ export function MyAppClient({ initialSlug = myApps[0].slug }) {
             CenturyNine Privacy Center
           </div>
           <h1 className="text-4xl font-semibold tracking-normal text-base-content sm:text-5xl">
-            My Apps
+            App Privacy Policies
           </h1>
           <p className="mt-4 max-w-2xl text-base leading-7 text-base-content/70 sm:text-lg">
-            Privacy policies, store links, and release-ready notices for Norz,
-            DramaWallet, and Zaplyt.
+            Privacy policies, store links, and release-ready notices.
           </p>
         </div>
       </div>
@@ -240,24 +239,18 @@ export function MyAppClient({ initialSlug = myApps[0].slug }) {
               </div>
             </div>
 
-            <div className="grid grid-cols-2 gap-2">
-              <Link
-                href={selectedApp.href}
-                className="btn btn-sm btn-neutral rounded-lg cursor-pointer"
-              >
-                <Eye size={15} />
-                Privacy
-              </Link>
+            <div className="grid grid-cols-1 gap-2 ">
+          
 
               {selectedApp.playStoreUrl ? (
                 <a
                   href={selectedApp.playStoreUrl}
                   target="_blank"
                   rel="noreferrer"
-                  className="btn btn-sm btn-outline rounded-lg cursor-pointer"
+                  className="btn btn-sm btn-outline rounded-lg cursor-pointer "
                 >
                   <Play size={15} />
-                  Play Store
+                  Play Store 
                 </a>
               ) : (
                 <button
@@ -266,9 +259,9 @@ export function MyAppClient({ initialSlug = myApps[0].slug }) {
                   className="btn btn-sm rounded-lg border-blue-300/15 bg-base-200/70 text-base-content/55 cursor-not-allowed"
                 >
                   <Play size={15} />
-                  Play
+                  Play Store
                   <span className="badge badge-xs border-blue-300/20 bg-base-100/80">
-                    Add
+                    Comsing soon
                   </span>
                 </button>
               )}

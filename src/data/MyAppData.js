@@ -241,9 +241,8 @@ lowlifeix@gmail.com`,
     summary:
       "Offline electricity usage calculations with local-only appliance input and settings.",
     privacySourceUrl:
-      "https://github.com/centurynine/product-privacy/blob/main/Privacy_Zaplyt.MD",
-    // Use the exact Google Play details URL, not a search URL.
-    playStoreUrl: "",
+      "https://github.com/centurynine/product-privacy/blob/main/Privacy_Zaplyt.MD", 
+    playStoreUrl: "https://play.google.com/store/apps/details?id=com.centurynine.zaplyt",
     appStoreUrl: "",
     appStoreStatus: "Coming soon",
     highlights: [
@@ -334,5 +333,83 @@ We may update this Privacy Policy from time to time. When we do, we will update 
 If you have questions about this Privacy Policy or Zaplyt's privacy practices, contact:
 
 lowlifeix@gmail.com`,
+  },
+
+
+
+
+
+   {
+    name: "Wizard REST Client",
+    slug: "wizard-rest-client",
+    href: "/app/wizard-rest-client",
+    logo: "/assets/images/apps/wizard-rest-client.png",
+    category: "API Testing",
+    accent: "from-green-300 to-emerald-400",
+    summary:
+      "Offline API testing and debugging with local-only request and response data.",
+    privacySourceUrl:
+      "https://github.com/centurynine/product-privacy/blob/main/Privacy_Wizard_REST_Client.MD",
+    // Use the exact Google Play details URL, not a search URL.
+    playStoreUrl: "https://play.google.com/store/apps/details?id=com.centurynine.wizardrestclient",
+    appStoreUrl: "",
+    appStoreStatus: "Coming soon",
+    highlights: [
+      "Does not collect, store, or share personal information from users.",
+      "Stores API request and response data locally on the device without uploading to our servers.",
+      "Uses Google Mobile Ads / AdMob for advertisements.",
+    ],
+    policy: `# Privacy Policy for Wizard-RestClient
+
+## Introduction
+Wizard-RestClient is a REST API client application that allows users to create, send, and test API requests. This Privacy Policy explains how we handle your data in compliance with the Personal Data Protection Act (PDPA).
+
+## Data Collection
+Wizard-RestClient is designed to minimize data collection:
+
+1. **Request Data**: The application stores locally the API requests you create, including URLs, headers, body content, authentication details, and query parameters.
+2. **Authentication Information**: When you enter authentication credentials (such as usernames, passwords, API keys, or tokens), this information is stored locally on your device to facilitate API requests.
+3. **Response Data**: API responses are displayed within the application and may be stored locally for your reference.
+
+## Data Storage and Protection
+Wizard-RestClient stores all data locally on your device. We do not:
+- Send your request data to our servers
+- Share your API credentials with third parties
+- Track your usage or collect analytics data without your consent
+
+## Data Usage
+Your data is used exclusively to:
+- Execute the API requests you create
+- Save your request configurations for reuse
+- Provide features like request history and collections
+
+## Your Rights Under PDPA
+As a user, you have the right to:
+- Access your stored data within the application
+- Delete your request history and saved configurations
+- Export your data in supported formats
+- Use the application without unnecessary data collection
+
+## Third-Party Services
+When you use Wizard-RestClient to communicate with external APIs:
+- Those third-party services may collect and process data according to their own privacy policies
+- We do not control and are not responsible for how third-party APIs handle your data
+- We recommend reviewing the privacy policies of any third-party services you connect to
+
+## Data Security
+We implement appropriate security measures to protect your data:
+- All data is stored locally on your device
+- Authentication details are only used for constructing API requests
+- No automatic sharing of your request data
+
+## Changes to This Policy
+We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the application.
+
+## Contact Us
+If you have any questions about this Privacy Policy, please contact us at:
+lowlifeix@gmail.com
+
+Last updated: 01/05/2026
+`,
   },
 ];
