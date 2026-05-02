@@ -542,4 +542,153 @@ If you have questions about this Privacy Policy or Wizard Calculator's privacy p
 
 `,
   },
+
+
+  {
+  name: "Wizard QR Code",
+  slug: "wizard-qrcode",
+  href: "/app/wizard-qrcode",
+  logo: "/assets/images/apps/wizard-qrcode.png",
+  category: "Utilities",
+  accent: "from-amber-300 to-yellow-500",
+  summary:
+    "QR code scanner and generator with local scan history, QR image save/share, crash reporting, and ad support.",
+  privacySourceUrl:
+    "https://github.com/centurynine/product-privacy/blob/main/Privacy_Wizard_QR_Code.MD",
+  playStoreUrl: "https://play.google.com/store/apps/details?id=com.centurynine.wizardqrcode.app",
+  appStoreUrl: "",
+  appStoreStatus: "Coming soon",
+  highlights: [
+    "Scanned and generated QR content is stored locally on the user's device.",
+    "Uses camera and image permissions for QR scanning, import, save, and share features.",
+    "Uses Google Mobile Ads / AdMob for advertisements.",
+    "Uses Firebase Crashlytics for crash reporting and diagnostics."
+  ],
+  policy: `# Privacy Policy for Wizard QR Code
+
+Last updated: May 2, 2026
+
+Developer / Publisher: CenturyNine
+
+Privacy contact: lowlifeix@gmail.com
+
+## Overview
+
+This Privacy Policy explains how Wizard QR Code ("the App") handles information when you use the App. Wizard QR Code provides QR code and barcode scanning, QR code generation, local scan history, generated QR history, QR image saving, and QR image sharing. The core QR scanning and generation features are designed to run on your device without requiring a CenturyNine account.
+
+## Information Stored or Processed on Your Device
+
+The App processes QR code and barcode content that you scan, type, paste, generate, save, or share. This may include text, website URLs, email addresses, phone numbers, contact details, WiFi network names and passwords, messages, map URLs, latitude/longitude coordinates, and other content that you choose to put into a QR code.
+
+The App stores scan history and generated QR history locally on your device. This local history may include the QR content, content type, and timestamp. These values are used to show your history inside the App and are not intentionally sent to CenturyNine servers.
+
+Camera frames, photos you take, and images you select from your gallery are used to scan QR codes or barcodes. The App does not intentionally upload these images to CenturyNine servers. The operating system, Flutter framework, camera/gallery components, Google ML Kit, Google Mobile Ads SDK, Firebase SDKs, sharing system, or file/cache systems may create ordinary app cache, temporary files, diagnostic data, or identifiers required for the App to run.
+
+When you save or share a generated QR code, the App may create a PNG image file on your device or in temporary app storage. Files you save or share may remain available outside the App depending on your device, storage settings, and the apps you choose to share with.
+
+The App does not require you to create a CenturyNine account and does not ask you to provide your name, email address, contacts, precise GPS location, microphone audio, or files unless you voluntarily enter that information into QR content or choose an image/file-related feature.
+
+## Device Features and Permissions
+
+Wizard QR Code may request internet and network access. Internet and network access are used for advertising, crash reporting, SDK functionality, and ordinary connectivity checks.
+
+The App may request camera access to scan QR codes and barcodes in real time, and to take a photo for QR code scanning.
+
+The App may request photos, media, or storage access to import images that contain QR codes and to save generated QR code images. Storage access may also be used to create temporary files for sharing.
+
+The App may read clipboard text only when you use the clipboard URL generator feature. Clipboard content is used to fill the QR generator field and is not intentionally sent to CenturyNine servers.
+
+The Android app configuration may include audio-related permissions because of platform or dependency configuration. Wizard QR Code's core QR features do not record audio, and CenturyNine does not intentionally collect microphone audio through the App.
+
+## Advertising and Third-Party Services
+
+Wizard QR Code uses Google Mobile Ads / AdMob to show ads. Google Mobile Ads may automatically collect, process, and share certain information for ad delivery, ad measurement, analytics, security, and fraud prevention. Depending on your device, settings, region, and Google services, this may include:
+
+- IP address and coarse location inferred from network information.
+- App interactions and ad interactions.
+- Device information, diagnostics, and crash-related information.
+- Advertising identifiers, device identifiers, and related account or device signals.
+
+Wizard QR Code does not intentionally send the QR content you scan or generate to Google for advertising.
+
+You can learn more from these Google resources:
+
+- Google Mobile Ads SDK data disclosure: https://developers.google.com/ad-manager/mobile-ads-sdk/android/privacy/play-data-disclosure
+- How Google uses information from apps and sites that use its services: https://policies.google.com/technologies/partner-sites
+- Google Privacy Policy: https://policies.google.com/privacy
+
+## Crash Reporting and Diagnostics
+
+Wizard QR Code uses Firebase Crashlytics to help identify, diagnose, and fix crashes and stability issues. Crashlytics may collect crash stack traces, device model, operating system version, app version, timestamps, installation or session identifiers, and related diagnostic information.
+
+We use this information to improve stability and troubleshoot errors. We do not intentionally include QR content, scan history, generated QR history, photos, or clipboard content in crash reports.
+
+You can learn more from the Firebase Privacy and Security page and the Firebase Crashlytics documentation:
+
+- https://firebase.google.com/support/privacy
+- https://firebase.google.com/docs/crashlytics
+
+## QR Scanning and Google ML Kit
+
+Wizard QR Code may use Google ML Kit barcode scanning to detect QR codes and barcodes in images. Google states that ML Kit barcode scanning runs on the device and does not require a network connection. Google also states that ML Kit input data, such as images, is processed on-device and is not sent to Google servers, though ML Kit APIs may contact Google servers from time to time for items such as bug fixes, updated models, and hardware accelerator compatibility information.
+
+You can learn more from these Google resources:
+
+- ML Kit barcode scanning: https://developers.google.com/ml-kit/vision/barcode-scanning
+- ML Kit Terms and Privacy: https://developers.google.com/ml-kit/terms
+
+## User-Initiated Sharing, Links, and External Apps
+
+If you choose to share a QR image, open a scanned link, start an email, start a phone call, view a saved file, or send content to another app, the content may be provided to the external app, website, service, or device feature you selected. Those third parties handle information according to their own privacy policies and settings.
+
+## How We Use Information
+
+We use information handled by the App to:
+
+- Scan QR codes and barcodes.
+- Generate QR codes from content you provide.
+- Display, edit, save, and share generated QR codes.
+- Store and display local scan and generated QR history.
+- Open user-selected links, email actions, phone actions, and sharing actions.
+- Show and measure ads that support the App.
+- Detect, diagnose, and fix crashes or technical issues.
+- Maintain and improve the App experience.
+
+## Sharing of Information
+
+We do not sell your personal information. We do not operate a CenturyNine account system for Wizard QR Code, and we do not intentionally upload your scanned QR content, generated QR content, photos, or local history to our own server.
+
+Information may be processed by third-party providers such as Google Mobile Ads, Firebase Crashlytics, Google ML Kit, the operating system, and external apps or websites you choose to open or share with, as described in this Privacy Policy and in those providers' own privacy policies.
+
+## Data Retention and Deletion
+
+Scan history and generated QR history remain on your device until you delete them in the App, clear the App's storage in device settings, or uninstall the App.
+
+Generated QR images that you save or share may remain in your device storage, gallery, file system, temporary storage, or the external apps you shared them with. You can delete saved files using your device's normal file, photo, or app management tools.
+
+Advertising, diagnostic, and crash-reporting data handled by Google or other third-party services is retained according to those providers' policies and your device, account, and advertising settings.
+
+## Security
+
+We design Wizard QR Code so core QR content is processed locally and is not sent to CenturyNine servers. However, no method of storage or transmission is completely secure. QR codes can contain sensitive information such as WiFi passwords, contact details, or location details, so please avoid scanning, generating, saving, or sharing highly sensitive content unless you understand the risk.
+
+## Children's Privacy
+
+Wizard QR Code is not directed to children under 13 years old. We do not knowingly collect personal information directly from children. If you believe a child has provided personal information through the App, please contact us so we can review the issue.
+
+## International Users
+
+Your local QR content and history remain on your device unless you choose to share, open, save, or otherwise export them. Third-party services such as Google Mobile Ads, Firebase, Google ML Kit, external apps, and websites you open may process information in different countries according to their own policies and applicable law.
+
+## Changes to This Privacy Policy
+
+We may update this Privacy Policy from time to time. When we do, we will update the "Last updated" date above. Continued use of the App after changes means you accept the updated Privacy Policy.
+
+## Contact Us
+
+If you have questions about this Privacy Policy or Wizard QR Code's privacy practices, contact us at lowlifeix@gmail.com.
+
+`,
+}
+
 ];
