@@ -689,6 +689,131 @@ We may update this Privacy Policy from time to time. When we do, we will update 
 If you have questions about this Privacy Policy or Wizard QR Code's privacy practices, contact us at lowlifeix@gmail.com.
 
 `,
+},
+
+{
+  name: "Fretune Guitar Tuner",
+  slug: "fretune-guitar-tuner",
+  href: "/app/fretune-guitar-tuner",
+  logo: "/assets/images/apps/fretune.png",
+  category: "Music",
+  accent: "from-emerald-300 to-green-500",
+  summary:
+    "Real-time on-device guitar tuner with microphone pitch detection, cents display, Standard / Drop D / Eb presets, A4 calibration, and ad support.",
+  privacySourceUrl:
+    "https://github.com/centurynine/product-privacy/blob/main/Privacy_Fretune_Guitar_Tuner.MD",
+  playStoreUrl: "https://play.google.com/store/apps/details?id=com.centurynine.fretune",
+  appStoreUrl: "",
+  appStoreStatus: "Coming soon",
+  highlights: [
+    "Microphone audio is processed locally on the user's device for real-time pitch detection.",
+    "The app does not intentionally record, save, upload, or transmit microphone audio to CenturyNine servers.",
+    "Supports Standard, Drop D, and Eb / Half-Step Down tuning presets with A4 calibration.",
+    "Uses Google Mobile Ads / AdMob for advertisements."
+  ],
+  policy: `# Privacy Policy for Fretune Guitar Tuner
+
+Last updated: May 2, 2026
+
+Developer / Publisher: CenturyNine
+
+Privacy contact: lowlifeix@gmail.com
+
+## Overview
+
+This Privacy Policy explains how Fretune Guitar Tuner ("the App") handles information when you use the App. Fretune Guitar Tuner provides real-time guitar tuning, pitch detection, note mapping, tuning presets, string lock mode, A4 calibration, and ad-supported app features. The core tuning features are designed to run on your device without requiring a CenturyNine account or a CenturyNine backend server.
+
+## Information Stored or Processed on Your Device
+
+The App uses your device microphone to listen to guitar audio while the tuner is active. Audio input is processed on your device to estimate pitch frequency, compare the detected pitch with the selected target string or tuning preset, and display tuning information such as note name, detected frequency, target frequency, cents offset, and tuning status.
+
+Fretune Guitar Tuner does not intentionally record, save, upload, or transmit microphone audio to CenturyNine servers. The App processes short audio buffers in memory for pitch detection. These buffers are used for real-time tuning and are not intentionally stored as audio files by CenturyNine.
+
+The App may process app settings and tuning state such as selected tuning preset, selected string lock mode, and A4 calibration value. These values are used to operate the tuner. The current version does not require you to create an account and does not ask you to provide your name, email address, contacts, photos, precise GPS location, files, or other personal content for the core tuning features.
+
+The operating system, Flutter framework, microphone/audio components, Google Mobile Ads SDK, file/cache systems, or device diagnostics may create ordinary app cache, temporary files, logs, identifiers, or diagnostic data required for the App and third-party SDKs to run.
+
+## Device Features and Permissions
+
+Fretune Guitar Tuner may request microphone permission. Microphone access is used to detect guitar pitch in real time. If you deny microphone permission, the tuner cannot listen to your guitar and pitch detection will not work.
+
+The App may request internet and network access. Internet and network access are used for Google Mobile Ads / AdMob, SDK functionality, and ordinary connectivity needs.
+
+The App does not use the microphone to record conversations, does not intentionally store microphone recordings, and does not intentionally send microphone audio to CenturyNine servers.
+
+## Advertising and Third-Party Services
+
+Fretune Guitar Tuner uses Google Mobile Ads / AdMob to show advertisements. Google Mobile Ads may automatically collect, process, and share certain information for ad delivery, ad measurement, analytics, security, and fraud prevention. Depending on your device, settings, region, and Google services, this may include:
+
+- IP address and coarse location inferred from network information.
+- App interactions and ad interactions.
+- Diagnostic information related to app and SDK performance.
+- Device identifiers, advertising identifiers, app set ID, and related account or device signals.
+
+Google states that user data collected by the Google Mobile Ads SDK is encrypted in transit using TLS.
+
+Fretune Guitar Tuner does not intentionally send microphone audio, detected notes, tuning activity, selected strings, or guitar tuning results to Google for advertising. However, Google Mobile Ads may collect and process data as described in Google's documentation and privacy policies.
+
+You can learn more from these Google resources:
+
+- Google Mobile Ads SDK data disclosure: https://developers.google.com/ad-manager/mobile-ads-sdk/android/privacy/play-data-disclosure
+- How Google uses information from apps and sites that use its services: https://policies.google.com/technologies/partner-sites
+- Google Privacy Policy: https://policies.google.com/privacy
+
+## Audio Processing and Pitch Detection
+
+The App's pitch detection is designed to run locally on your device. Microphone audio is converted into short audio buffers, analyzed to estimate pitch frequency, and mapped to the closest guitar string or locked string target. The result is displayed in the user interface.
+
+The App may show the detected frequency in Hz, target frequency in Hz, cents offset, note name, and tuning status such as Tune Up, Tune Down, or In Tune. These values are generated from local audio processing and are not intentionally uploaded to CenturyNine servers.
+
+## How We Use Information
+
+We use information handled by the App to:
+
+- Listen to guitar audio while the tuner is active.
+- Detect pitch frequency on your device.
+- Map detected pitch to the selected tuning preset or locked string.
+- Display note name, detected frequency, target frequency, cents offset, and tuning status.
+- Support tuning presets such as Standard, Drop D, and Eb / Half-Step Down.
+- Apply A4 calibration to tuning target frequencies.
+- Show and measure ads that support the App.
+- Maintain and improve the App experience.
+
+## Sharing of Information
+
+We do not sell your personal information. We do not operate a CenturyNine account system for Fretune Guitar Tuner, and we do not intentionally upload microphone audio or tuning results to our own server.
+
+Information may be processed by third-party providers such as Google Mobile Ads, the operating system, Flutter framework, audio/microphone components, and device services as described in this Privacy Policy and in those providers' own privacy policies.
+
+## Data Retention and Deletion
+
+Fretune Guitar Tuner does not intentionally store microphone recordings or tuning session audio. Real-time audio buffers are processed in memory for pitch detection and are not intentionally retained as audio files by CenturyNine.
+
+If app settings or temporary data are stored by the App, operating system, SDKs, or app cache, they may remain on your device until you clear the App's storage in device settings, delete the App, or the operating system removes temporary data.
+
+Advertising data handled by Google or other third-party services is retained according to those providers' policies and your device, account, and advertising settings.
+
+## Security
+
+We design Fretune Guitar Tuner so core tuning audio processing happens locally on your device and is not sent to CenturyNine servers. However, no method of storage or transmission is completely secure. Third-party SDKs and operating system services may process data according to their own security practices.
+
+## Children's Privacy
+
+Fretune Guitar Tuner is not directed to children under 13 years old. We do not knowingly collect personal information directly from children. If you believe a child has provided personal information through the App, please contact us so we can review the issue.
+
+## International Users
+
+Core tuning audio processing is designed to happen locally on your device. Third-party services such as Google Mobile Ads, the operating system, and device services may process information in different countries according to their own policies and applicable law.
+
+## Changes to This Privacy Policy
+
+We may update this Privacy Policy from time to time. When we do, we will update the "Last updated" date above. Continued use of the App after changes means you accept the updated Privacy Policy.
+
+## Contact Us
+
+If you have questions about this Privacy Policy or Fretune Guitar Tuner's privacy practices, contact us at lowlifeix@gmail.com.
+
+`,
 }
 
 ];
